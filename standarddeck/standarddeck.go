@@ -56,6 +56,7 @@ func (sd *StandardDeck) Size() int {
 	return len(sd.cards)
 }
 
+// number of remaining cards in the deck
 func (sd *StandardDeck) CardsLeft() int {
 	return sd.Size() - sd.idx
 }

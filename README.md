@@ -1,5 +1,7 @@
 # Playing Cards
 
+[GoDoc](https://godoc.org/github.com/stensonb/playingcards)
+
 # Usage
 
 Import the package (note, I'm importing math/rand and time in order to supply Shuffle() with a seed):

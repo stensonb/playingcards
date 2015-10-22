@@ -86,8 +86,8 @@ func (c *Card) String() string {
 	return c.Value.String() + c.Suit.String()
 }
 
-func (c *Card) Equals(c0 *Card) bool {
-	if c.Suit == c0.Suit && c.Value == c0.Value {
+func (c *Card) Equals(o *Card) bool {
+	if c.Suit == o.Suit && c.Value == o.Value {
 		return true
 	}
 	return false
