@@ -4,7 +4,7 @@ This package provides interfaces, structs, and methods which model traditional p
 package playingcards
 
 import (
-  "github.com/stensonb/playingcards/card"
-  "github.com/stensonb/playingcards/deck"
-  "github.com/stensonb/playingcards/standarddeck"
+  _ "github.com/stensonb/playingcards/card"
+  _ "github.com/stensonb/playingcards/deck"
+  _ "github.com/stensonb/playingcards/standarddeck"
 )
