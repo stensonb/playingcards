@@ -86,6 +86,9 @@ func (c *Card) String() string {
 	return c.Value.String() + c.Suit.String()
 }
 
+// returns true only when both cards' suits and values match
+// ie, two "Ten of Hearts" would be true
+// ie, "Ten of Hearts" and "Ten of Spades" would be false
 func (c *Card) Equals(o *Card) bool {
 	if c.Suit == o.Suit && c.Value == o.Value {
 		return true
