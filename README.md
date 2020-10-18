@@ -1,6 +1,4 @@
-# Playing Cards ![travis-ci-status](https://travis-ci.org/stensonb/playingcards.svg?branch=master)
-
-[![Build Status](https://travis-ci.org/stensonb/playingcards.svg?branch=master)](https://travis-ci.org/stensonb/playingcards)
+# Playing Cards [![travis-ci-status](https://travis-ci.org/stensonb/playingcards.svg?branch=master)](https://travis-ci.org/stensonb/playingcards)
 
 [GoDoc](https://godoc.org/github.com/stensonb/playingcards)
 
