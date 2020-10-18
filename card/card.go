@@ -44,34 +44,8 @@ func (s *Suit) String() string {
 type Value int
 
 func (v *Value) String() string {
-	switch *v {
-	case Ace:
-		return "A"
-	case Two:
-		return "2"
-	case Three:
-		return "3"
-	case Four:
-		return "4"
-	case Five:
-		return "5"
-	case Six:
-		return "6"
-	case Seven:
-		return "7"
-	case Eight:
-		return "8"
-	case Nine:
-		return "9"
-	case Ten:
-		return "10"
-	case Jack:
-		return "J"
-	case Queen:
-		return "Q"
-	default: // King
-		return "K"
-	}
+	valueStrings := []string{"A", "2", "3", "4", "5", "6", "7", "8", "9", "10", "J", "Q", "K"}
+	return valueStrings[*v]
 }
 
 var AllSuits = []Suit{Hearts, Spades, Diamonds, Clubs}
